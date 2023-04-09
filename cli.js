@@ -19,7 +19,8 @@ function copyTo(atPath, toPath) {
             fs.copyFileSync(atPath, toPath);
         }
     } catch (err) {
-        console.error(err);
+        console.log("Error occured while copying template to", toPath);
+        process.exit(1);
     }
 }
 
