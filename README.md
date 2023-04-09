@@ -1,3 +1,3 @@
 # dmp
-A python script for creating a prisma project with MongoDB on Docker running locally.
 
+An npm package for creating a prisma project with MongoDB on Docker running locally.

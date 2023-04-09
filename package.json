@@ -1,0 +1,20 @@
+{
+  "name": "dmp",
+  "version": "1.0.0",
+  "description": "An npm package for creating a prisma project with MongoDB on Docker running locally.",
+  "main": "cli.js",
+  "bin": "./cli.js",
+  "files": [
+    "cli.js",
+    "template"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
