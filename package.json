@@ -1,5 +1,5 @@
 {
-  "name": "dmp",
+  "name": "create-dmp",
   "version": "1.0.0",
   "description": "An npm package for creating a prisma project with MongoDB on Docker running locally.",
   "main": "cli.js",
@@ -11,7 +11,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["prisma", "mongodb", "docker"],
+  "keywords": [
+    "prisma",
+    "mongodb",
+    "docker"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
